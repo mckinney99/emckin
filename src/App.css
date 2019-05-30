@@ -2,32 +2,48 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+img {
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* --------------- NAVBAR ---------------- */
+
+.nav-bar {
+  color: grey;
+}
+
+.nav-item {
+  padding: 10px 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item:hover {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-dark .navbar-brand {
+color: grey;
 }
+
+.navbar-dark .navbar-brand:hover {
+  color: black;
+}
+
+/* --------------- PROJECTS ---------------- */
+
+.projects {
+  padding-top: 20px;
+}
+
+.project-header {
+  padding-left: 85px;
+}
+
+
+.email {
+
+}
+
+.linkedin {
+  
+  }
