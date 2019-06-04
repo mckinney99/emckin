@@ -24,6 +24,7 @@ class Projects extends Component {
       <Row>
         <Col md={2}></Col>
         <Col md={8} className="projects">
+          <h2>Eric McKinney - Project Examples</h2>
           <Image src={LessonPlanner7} fluid />
           <br />
           <div className="project-header">
