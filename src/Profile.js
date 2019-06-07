@@ -8,10 +8,9 @@ import ProfilePic from './img/eric.png';
 class Profile extends Component {
   render(){
   return (
-    <div className="profile">
+    <div className="text-center">
       <Row>
-        <Col md={4}></Col>
-        <Col md={4}>
+        <Col>
           <br />
           <br />
 
@@ -20,12 +19,9 @@ class Profile extends Component {
           <br />
 
         </Col>
-
-        <Col md={4}></Col>
         </Row>
         <Row>
-          <Col md={2}/>
-          <Col md={8}>
+          <Col>
           <p>Eric McKinney is a full stack web developer with experience in Ruby on Rails, Javascript, and React. Inspired by his position as an eCommerce manager, and love for all things Raspberry Pi, Eric has dedicated the last three years to learning web development through various online courses and at The Flatiron School, a top-rated coding bootcamp. Through his experience both as a community volunteer, and a musician, Eric seeks to use his skills to create products and systems that benefit the community.</p>
           <br />
             <div className="email">
@@ -38,7 +34,6 @@ class Profile extends Component {
             <br />
             <br />
           </Col>
-          <Col md={2} />
           </Row>
     </div>
     );

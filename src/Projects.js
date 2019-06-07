@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 
+import Particles from 'react-particles-js';
+
 import LessonPlanner7 from './img/lesson-planner7.png';
 import LessonPlanner2 from './img/lesson-planner2.png';
 import LessonPlanner3 from './img/lesson-planner3.png';
@@ -15,22 +17,70 @@ import Cli3 from './img/cli3.png';
 import Cli5 from './img/cli5.png';
 
 import {withRouter} from 'react-router';
-import {Row, Col, Image} from 'react-bootstrap';
+import {Row, Col, Image, Video} from 'react-bootstrap';
+
+const particleOpt = {
+    polygon: {
+      number: {
+        value: 150,
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      }
+    }
+  }
+
 
 class Projects extends Component {
   render() {
   return (
-    <div className="projects">
-      <Row>
-        <Col md={2}></Col>
-        <Col md={8} className="projects">
-          <div className="project-header">
 
-          <h2>Eric McKinney - Project Examples</h2>
+    <div className="projects">
+
+
+
+          <div className="particle">
+            <div class="col text-center justify-content-center align-self-center">
+
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              
+             <h1>Projects</h1>
+           </div>
+        <Particles
+            params={particleOpt} />
+
+
+          </div>
+
+          <Row show-grid mx-auto>
+
+
+
+        <Col>
+
+        <div class="text-center">
+          <br />
+          <br />
+
+          <h1>Lesson Planner App </h1>
           <br />
           <Image src={LessonPlanner7} fluid />
           <br />
-            <h1>Lesson Planner App </h1>
+
             <br />
             <br />
             <h3>Objective:</h3>
@@ -115,19 +165,9 @@ class Projects extends Component {
             <br />
             <br />
             <Image src={Cli5} fluid />
-
-
-
-
-
-
-
           </div>
+        </Col>
           <br />
-
-          </Col>
-          <Col md={2}></Col>
-
         </Row>
     </div>
     );
