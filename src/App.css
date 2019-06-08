@@ -12,6 +12,10 @@ a {
   background-color: transparent;
 }
 
+h3 {
+  padding-right: 20px;
+}
+
 /* --------------- NAVBAR ---------------- */
 
 .nav-bar {
@@ -47,7 +51,7 @@ color: grey;
 .particle {
   background: black;
   width: 100vw;
-    margin-left: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
   /* position: absolute;
   left: 0;
   size: auto; */
@@ -55,12 +59,29 @@ color: grey;
   min-width: 1024px; */
 }
 
-div.projects.col {
-
+h1.p-text {
+  position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
 }
 
-.project-header {
+div.lesson-planner {
+  border-style: solid;
+  border-width: 2px;
+}
 
+div.setlist-maker {
+  border-style: solid;
+  border-width: 2px;
+}
+
+div.cocktails {
+  border-style: solid;
+  border-width: 2px;
 }
 
 
