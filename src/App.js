@@ -7,14 +7,11 @@ import Projects from './Projects.js';
 import PdfShow from './PdfShow.js';
 
 
-
-
 class App extends Component {
  render() {
   return (
     <Router>
       <Navtop />
-
 
       <Switch>
         <Route path='/' exact component={withRouter(Projects)} />
