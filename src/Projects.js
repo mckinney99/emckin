@@ -61,6 +61,10 @@ class Projects extends Component {
                   <Image src={LessonPlanner7} fluid />
                   <h3 style={{display: "inline"}}>Objective:</h3>
                   <p style={{display: "inline"}}>Create an application that allows users to easily create, store, and share lesson plans.</p>
+
+                  <br />
+                  <br />
+                  
                   <h3 style={{display: "inline"}}>Solution:</h3>
                   <p style={{display: "inline"}}>A Javascript React framework...</p>
                   <Image src={LessonPlanner2} fluid />
