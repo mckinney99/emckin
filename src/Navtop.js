@@ -3,7 +3,8 @@ import './App.css';
 import { Navbar, Nav, NavItem, Container, Button, Col, Row } from 'react-bootstrap';
 import Projects from './Projects';
 import Profile from './Profile';
-import  { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import  { BrowserRouter as Router, Link, Route, Switch, NavLink } from 'react-router-dom';
+import {  IndexLinkContainer } from 'react-router-bootstrap';
 
 export default class Navtop extends Component {
   render() {
@@ -13,12 +14,11 @@ export default class Navtop extends Component {
         <Link to="/">Eric McKinney</Link>
       </Navbar.Brand>
         <Nav className="ml-auto">
-          <NavItem>
-            <Nav.Link href="/profile">Profile</Nav.Link>
-          </NavItem>
-          <NavItem>
-            <Nav.Link href="/">Projects</Nav.Link>
-          </NavItem>
+
+
+          <NavLink to="/">Projects</NavLink>
+          <NavLink to="/profile">Profile</NavLink>
+
         </Nav>
       </Navbar>
 
