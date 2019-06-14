@@ -13,8 +13,25 @@ a {
 }
 
 h3 {
-  padding-right: 20px;
+  padding: 20px;
 }
+
+h1 {
+  padding: 30px;
+}
+
+p {
+  padding: 30px;
+}
+
+image {
+  padding: 30px;
+}
+
+img.img-fluid {
+  padding: 30px;
+}
+
 
 /* --------------- NAVBAR ---------------- */
 
@@ -48,6 +65,10 @@ color: grey;
 
 /* --------------- PROJECTS ---------------- */
 
+.text-center {
+  padding: 50px;
+}
+
 .particle {
   background: black;
   width: 100vw;
@@ -69,20 +90,13 @@ h1.p-text {
   font-size: 65px;
 }
 
-div.lesson-planner {
+div.project {
   border-style: solid;
   border-width: 2px;
+  padding: 60px;
+  margin: 50px;
 }
 
-div.setlist-maker {
-  border-style: solid;
-  border-width: 2px;
-}
-
-div.cocktails {
-  border-style: solid;
-  border-width: 2px;
-}
 
 
 .email {
@@ -92,3 +106,16 @@ div.cocktails {
 .linkedin {
 
   }
+
+
+  /* --------------- PROFILE ---------------- */
+
+
+
+.email {
+  padding: 20px;
+}
+
+.linked-in {
+  padding: 20px;
+}

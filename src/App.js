@@ -4,6 +4,7 @@ import  { BrowserRouter as Router, Route, Switch, withRouter } from 'react-route
 import Navtop from './Navtop.js';
 import Profile from './Profile.js';
 import Projects from './Projects.js';
+import PdfShow from './PdfShow.js';
 
 
 
