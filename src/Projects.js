@@ -84,7 +84,7 @@ class Projects extends Component {
                   <p>A front-end Rails application that utilizes AJAX for dynamically rendered content.</p>
                   <Image src={Setlist3} fluid />
                   <h3>Features:</h3>
-                  <p>Oauth (for general user management and login with Github), Bootsrap CSS, and a Rails/SQL ActiveRecord database. </p>
+                  <p>Oauth (for general user management and login with Github), Bootstrap CSS, and a Rails/SQL ActiveRecord database. </p>
                   <Image src={Setlist7} fluid />
                 </div>
 
