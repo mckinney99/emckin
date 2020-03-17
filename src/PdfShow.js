@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import {Button, Modal, Image,} from 'react-bootstrap';
-
 import EricResume from './img/eric-resume.png'
 
-class PdfShow extends React.Component {
+export default class Navtop extends Component {
   constructor(props, context) {
     super(props, context);
 
@@ -31,9 +30,7 @@ class PdfShow extends React.Component {
           View Resume
         </Button>
 
-        <div class="container-fluid">
-
-
+        <div className="container-fluid">
 
         <Modal size="lg" show={this.state.show} onHide={this.handleClose} fluid>
           <Modal.Header closeButton fluid>
@@ -55,6 +52,3 @@ class PdfShow extends React.Component {
     );
   }
 }
-
-
-export default PdfShow;

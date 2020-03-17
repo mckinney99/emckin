@@ -4,7 +4,7 @@ import  { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navtop from './Navtop.js';
 import Profile from './Profile.js';
 import Projects from './Projects.js';
-import PdfShow from './PdfShow.js';
+import DeepLink from './DeepLink.js';
 
 
 class App extends Component {
@@ -16,6 +16,7 @@ class App extends Component {
       <Switch>
         <Route path='/' exact component={Projects} />
         <Route path='/profile' component={Profile} />
+        <Route path='/deeplink' component={DeepLink} />
       </Switch>
 
     </Router>
