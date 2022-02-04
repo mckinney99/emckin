@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Col, Image, Row} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 import {withRouter} from "react-router";
 
 class DeepLink extends Component {
