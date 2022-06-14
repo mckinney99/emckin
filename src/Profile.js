@@ -22,7 +22,18 @@ class Profile extends Component {
         </Row>
         <Row>
           <Col>
-          <p>Eric McKinney is a full stack web developer with experience in Ruby on Rails, Javascript, and React. Inspired by his position as an eCommerce manager, and love for all things Raspberry Pi, Eric has dedicated the last three years to learning web development through various online courses and at The Flatiron School, a top-rated coding bootcamp. Through his experience both as a community volunteer, and a musician, Eric seeks to use his skills to create products and systems that benefit the community.</p>
+          <p>
+            Hello, my name is Eric McKinney and I am a full stack web developer based out of Madison, WI.
+            After graduating high school, I took an untraditional path by packing up my drums and touring
+            the country with various bands and musicians. I eventually wound up in Los Angeles where I got
+            a day job at an ecommerce company that sold fountain pens. The company wanted a new ecommerce website,
+            so we hired a team of developers to create one for us. Working with these developers is what kicked
+            off my curiosity and ultimately my passion for creating neat, scalable, and useful applications.
+            I enrolled in a dev bootcamp (Flatiron) shortly after, and moved back to my home state of Wisconsin.
+            In the spring of 2019 I graduated from Flatiron and began my career in tech shortly after. Since then,
+            I have worked on several Ruby on Rails and React projects, and am continuously sharpening my skills as a developer.
+            Please don't hesitate to reach out if you have any questions whatsoever. Thank you for taking the time to visit my page.
+          </p>
           <br />
             <div className="email">
               <a href={"mailto:mckinney99@gmail.com"}>Email</a>
