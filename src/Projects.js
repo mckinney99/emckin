@@ -3,6 +3,10 @@ import './App.css';
 
 import Particles from 'react-particles-js';
 
+import Figma1 from './img/figma-demo-1.png';
+import Figma2 from './img/figma-demo-2.png';
+import Figma3 from './img/figma-demo-3.png';
+
 import LessonPlanner7 from './img/lesson-planner7.png';
 import LessonPlanner2 from './img/lesson-planner2.png';
 import LessonPlanner3 from './img/lesson-planner3.png';
@@ -55,6 +59,37 @@ class Projects extends Component {
         <Col>
           <div className="text-center">
             <div className="project">
+              <h1>Figma Practice App</h1>
+              <p style={{display: "inline"}}>I wanted to get better at translating my designs in Figma to code, so I created
+              this app to help me practice.</p>
+
+              <br />
+              <br />
+
+              <a href="https://scintillating-druid-0f971e.netlify.app/" target="_blank" rel="noopener noreferrer">
+                Visit the live site</a>
+
+              <br />
+              <br />
+
+              <a href="https://www.figma.com/file/5OiF2gRIMr9xPELSCngcF2/design-demo1?node-id=0%3A1" target="_blank" rel="noopener noreferrer">
+                View the Figma design file</a>
+
+              <br />
+              <br />
+
+              <a href="https://github.com/mckinney99/figma-practice-demo/" target="_blank" rel="noopener noreferrer">
+                Checkout the Github repo</a>
+              
+              <Image src={Figma1} fluid/>
+
+              <Image src={Figma2} fluid/>
+
+              <Image src={Figma3} fluid/>
+
+              <br />
+              <br />
+
               <h1>Lesson Planner App </h1>
               <Image src={LessonPlanner7} fluid/>
               <h3 style={{display: "inline"}}>Objective:</h3>
