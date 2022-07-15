@@ -3,6 +3,8 @@ import './App.css';
 
 import Particles from 'react-particles-js';
 
+import RailsHelperGif from './img/rails-helper.gif';
+
 import Figma1 from './img/figma-demo-1.png';
 import Figma2 from './img/figma-demo-2.png';
 import Figma3 from './img/figma-demo-3.png';
@@ -59,6 +61,32 @@ class Projects extends Component {
         <Col>
           <div className="text-center">
             <div className="project">
+              <h1>Rails Helper Tool</h1>
+              <p style={{display: "inline"}}>I wanted a tool that helped me create migrations and other
+              'rails generate' commands so I didn't have to search for it every time. This allows any rails 
+              developer to simply enter in what they want to do, create the names, and rails helpers will
+              return the proper rails generate command.</p>
+            
+              <br />
+              <br />
+              <a href="https://railshelper.com/" target="_blank" rel="noopener noreferrer">
+                Visit the live site</a>
+              <br />
+              <br />
+              <a href="https://github.com/mckinney99/rails-helper" target="_blank" rel="noopener noreferrer">
+                Checkout the Github repo</a>
+              <br />
+              <br />
+              <Image src={RailsHelperGif} fluid/>
+              <br />
+              <br />
+              <p style={{display: "inline"}}>The tool also supports generating models, controllers, and even adding/removing columns from existing tables.</p>
+              <br />
+              <br />
+
+            </div>
+
+            <div className="project">
               <h1>Figma Practice App</h1>
               <p style={{display: "inline"}}>I wanted to get better at translating my designs in Figma to code, so I created
               this app to help me practice.</p>
@@ -89,9 +117,12 @@ class Projects extends Component {
 
               <br />
               <br />
+            </div>
 
+            <div className="project">
               <h1>Lesson Planner App </h1>
               <Image src={LessonPlanner7} fluid/>
+              <br/>
               <h3 style={{display: "inline"}}>Objective:</h3>
               <p style={{display: "inline"}}>Create an application that allows users to easily create, store, and share
                 lesson plans.</p>
