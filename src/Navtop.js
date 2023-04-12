@@ -14,7 +14,6 @@ export default class Navtop extends Component {
 
 
           <NavLink to="/">Projects</NavLink>
-          <NavLink to="/profile">Profile</NavLink>
 
         </Nav>
       </Navbar>
